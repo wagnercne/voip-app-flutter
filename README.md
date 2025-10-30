@@ -1,4 +1,11 @@
-# VOIP Flutter — Aplicativo Completo e Profissional
+# 📱 VoIP Flutter App — Aplicativo Completo e Profissional
+
+![Flutter](https://img.shields.io/badge/Flutter-3.35.5-blue.svg)
+![Dart](https://img.shields.io/badge/Dart-3.6.0-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Version](https://img.shields.io/badge/Version-1.0.1-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Android%20|%20iOS%20|%20Web-lightgrey.svg)
+![GitHub stars](https://img.shields.io/github/stars/wagnercne/voip-app-flutter?style=social)
 
 Este repositório contém um aplicativo VoIP **completo e profissional** em Flutter para Android e iOS com interface moderna e todas as funcionalidades essenciais.
 
@@ -190,7 +197,30 @@ O aplicativo está **100% funcional** e pronto para:
 - **Customização** de marca e cores
 - **Extensões** adicionais (notificações push, etc.)
 
-## 📄 Licença
+## �‍💻 Autor
+
+**Wagner CNE - Desenvolvedor Flutter/Mobile**
+- 📧 Email: contato.wagnercne@gmail.com
+- 💼 LinkedIn: [Wagner CNE](https://linkedin.com/in/wagnercne)
+- 🐱 GitHub: [@wagnercne](https://github.com/wagnercne)
+- 🚀 Especialidades: Flutter, Dart, VoIP, WebRTC, Mobile Development
+- 📱 Portfólio: Aplicações Mobile Completas e Profissionais
+
+## 🤝 Contribuição
+
+1. Fork o projeto
+2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request
+
+## 🙏 Agradecimentos
+
+- Flutter Team pelo excelente framework
+- CloudWebRTC pela biblioteca flutter_webrtc
+- Comunidade Flutter pelo suporte e documentação
+
+## �📄 Licença
 
 MIT License - Veja `LICENSE` para detalhes.
 
