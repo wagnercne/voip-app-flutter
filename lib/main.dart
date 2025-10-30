@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Provider<SipService>.value(
+    return ChangeNotifierProvider<SipService>.value(
       value: sipService,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

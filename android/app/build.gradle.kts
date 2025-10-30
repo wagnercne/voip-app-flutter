@@ -6,9 +6,9 @@ plugins {
 }
 
 android {
-    namespace = "com.example.voip_app"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.freelancer.voip_app"
+    compileSdk = 36
+    // Removendo ndkVersion para usar o padrão estável
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -24,15 +24,10 @@ android {
         applicationId = "com.freelancer.voip_app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = 23  // Mínimo para WebRTC
-        targetSdk = flutter.targetSdkVersion
+        minSdk = flutter.minSdkVersion  // Mínimo para WebRTC e flutter_webrtc
+        targetSdk = 36
         versionCode = flutter.versionCode
         versionName = flutter.versionName
-        
-        // Configurações para WebRTC
-        ndk {
-            abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")
-        }
     }
 
     buildTypes {
